@@ -101,7 +101,7 @@ class CppTest(Command):
 packages = ['pyqubo', 'pyqubo.integer', 'pyqubo.utils']
 
 install_requires = [
-    'numpy<1.20,>=1.17.3',
+    'numpy<2.0,>=1.17.3',
     'dimod>=0.9.13',
     'dwave-neal>=0.5.7',
     'Deprecated>=1.2.10',
